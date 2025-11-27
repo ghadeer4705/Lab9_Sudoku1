@@ -115,7 +115,7 @@
             <mxPoint x="1019.5" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="frM9Lkq-s7kW2zFHfbjo-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Return Result">
+        <mxCell id="frM9Lkq-s7kW2zFHfbjo-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Return Rows Result">
           <mxGeometry relative="1" x="-0.0027" y="-5" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -125,7 +125,7 @@
             <mxPoint x="540" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="frM9Lkq-s7kW2zFHfbjo-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Return Result">
+        <mxCell id="frM9Lkq-s7kW2zFHfbjo-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Return Columns Result">
           <mxGeometry relative="1" x="-0.0027" y="-5" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -135,7 +135,7 @@
             <mxPoint x="539.9488888888889" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="frM9Lkq-s7kW2zFHfbjo-36" edge="1" parent="1" source="frM9Lkq-s7kW2zFHfbjo-21" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="frM9Lkq-s7kW2zFHfbjo-17" value="Return Result">
+        <mxCell id="frM9Lkq-s7kW2zFHfbjo-36" edge="1" parent="1" source="frM9Lkq-s7kW2zFHfbjo-21" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="frM9Lkq-s7kW2zFHfbjo-17" value="Return Boxes Result">
           <mxGeometry relative="1" x="-0.0027" y="-5" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
