@@ -39,9 +39,9 @@ public class ValidationResult {
         } else {
             System.out.println("INVALID");
             for (DuplicateInfo d : rowErrors) System.out.println(d.errorFormat());
-            System.out.println("--------------------------------");
+            System.out.println("----------------------------------------");
             for (DuplicateInfo d : columnErrors) System.out.println(d.errorFormat());
-            System.out.println("--------------------------------");
+            System.out.println("----------------------------------------");
             for (DuplicateInfo d : boxErrors) System.out.println(d.errorFormat());
         }
     }
