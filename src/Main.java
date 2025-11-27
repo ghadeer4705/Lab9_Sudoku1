@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        String file = "C:\\Users\\Lenovo\\Desktop\\sudoku.csv"; // Hardcoded path for checkk
+        String file = "sudoku.csv"; // Hardcoded path for checkk
         int[][] grid = CSVFileReader.readFromFile(file);
         SudokuBoard board = new SudokuBoard(grid);
 
