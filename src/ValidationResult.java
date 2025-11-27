@@ -46,11 +46,11 @@ public class ValidationResult {
         }
     }
 
-    public List<DuplicateInfo> getDuplicates() {
+    /*public List<DuplicateInfo> getDuplicates() {
         List<DuplicateInfo> allDuplicates = new ArrayList<>();
         allDuplicates.addAll(rowErrors);
         allDuplicates.addAll(columnErrors);
         allDuplicates.addAll(boxErrors);
         return allDuplicates;
-    }
+    }*/
 }
