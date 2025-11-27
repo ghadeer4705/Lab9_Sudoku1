@@ -21,7 +21,7 @@ public class ColumnChecker implements Checker {
                 }
             }
             if (positions.size() > 1) {
-                result.add(new DuplicateInfo("COLUMN", col + 1, num, positions));
+                result.add(new DuplicateInfo("COL", col + 1, num, positions));
             }
         }
     }
