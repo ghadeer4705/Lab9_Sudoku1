@@ -45,4 +45,12 @@ public class ValidationResult {
             for (DuplicateInfo d : boxErrors) System.out.println(d.errorFormat());
         }
     }
+
+    public List<DuplicateInfo> getDuplicates() {
+        List<DuplicateInfo> allDuplicates = new ArrayList<>();
+        allDuplicates.addAll(rowErrors);
+        allDuplicates.addAll(columnErrors);
+        allDuplicates.addAll(boxErrors);
+        return allDuplicates;
+    }
 }
