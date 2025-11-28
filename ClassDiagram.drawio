@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
   <diagram name="Page-1" id="_jtTG7nyi55ANqVdrxyc">
-    <mxGraphModel dx="1892" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3784" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=17;fontColor=light-dark(#000000,#FFFFFF);fontStyle=1" value="Sudoku Class Diagram" vertex="1">
+        <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;fontSize=17;fontColor=light-dark(#000000,#FFFFFF);fontStyle=1;glass=1;" value="Sudoku Class Diagram" vertex="1">
           <mxGeometry height="30" width="215" x="318" y="10" as="geometry" />
         </mxCell>
         <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-2" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#A680B8);strokeColor=light-dark(#000000,#C3ABD0);" value="SudokuBoard" vertex="1">
@@ -186,6 +186,45 @@
         </mxCell>
         <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-91" parent="4a5K9zlp9YgZ5EDpZ-fm-70" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+getResult(): List&amp;lt;DuplicateInfo&amp;gt;" vertex="1">
           <mxGeometry height="40" width="230" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-92" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=none;strokeColor=light-dark(#000000,#A680B8);" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Validator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ validate(board:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SudokuBoard&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;ValidationResult&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="270" x="-640" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-93" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#A680B8);strokeColor=light-dark(#000000,#C3ABD0);" value="Mode0Validator" vertex="1">
+          <mxGeometry height="100" width="270" x="-920" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-94" parent="4a5K9zlp9YgZ5EDpZ-fm-93" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="270" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-96" parent="4a5K9zlp9YgZ5EDpZ-fm-93" style="line;strokeWidth=1;fillColor=default;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="270" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-97" parent="4a5K9zlp9YgZ5EDpZ-fm-93" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ validate(board:SudokuBoard):&amp;nbsp;ValidationResult&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="270" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-111" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#A680B8);strokeColor=light-dark(#000000,#C3ABD0);" value="Mode3Validator" vertex="1">
+          <mxGeometry height="100" width="270" x="-630" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-112" parent="4a5K9zlp9YgZ5EDpZ-fm-111" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="270" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-113" parent="4a5K9zlp9YgZ5EDpZ-fm-111" style="line;strokeWidth=1;fillColor=default;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="270" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-114" parent="4a5K9zlp9YgZ5EDpZ-fm-111" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ validate(board:SudokuBoard):&amp;nbsp;ValidationResult&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="270" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-115" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#A680B8);strokeColor=light-dark(#000000,#C3ABD0);" value="Mode27Validator" vertex="1">
+          <mxGeometry height="100" width="270" x="-340" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-116" parent="4a5K9zlp9YgZ5EDpZ-fm-115" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="270" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-117" parent="4a5K9zlp9YgZ5EDpZ-fm-115" style="line;strokeWidth=1;fillColor=default;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="270" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="4a5K9zlp9YgZ5EDpZ-fm-118" parent="4a5K9zlp9YgZ5EDpZ-fm-115" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ validate(board:SudokuBoard):&amp;nbsp;ValidationResult&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="270" y="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
