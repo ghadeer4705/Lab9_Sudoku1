@@ -6,19 +6,19 @@ public class Main {
         int[][] grid = CSVFileReader.readFromFile(file);
         SudokuBoard board = new SudokuBoard(grid);
 
-        /*Scanner s = new Scanner(System.in);
-        System.out.println("Choose validation mode:");
-        System.out.println("0- Sequential(No Threads)");
-        System.out.println("3- 3 Threads");
-        System.out.println("27- 27 Threads");
-        int mode = s.nextInt();*/
-        //int mode = 0; //to check mode 0
-        int mode = 27; //to check mode 27
 
-        Validator validator = ModeFactory.getValidator(mode);
-        ValidationResult result = validator.validate(board);
-        result.printFinalResult();
+            Scanner s = new Scanner(System.in);
+            System.out.println("Choose validation mode:");
+            System.out.println("0- Sequential(No Threads)");
+            System.out.println("3- 3 Threads");
+            System.out.println("27- 27 Threads");
+            int mode = s.nextInt();
+            //int mode = 0; //to check mode 0
+            //int mode = 27; //to check mode 27
 
+            Validator validator = ModeFactory.getValidator(mode);
+            ValidationResult result = validator.validate(board);
+            result.printFinalResult();
 
 
 

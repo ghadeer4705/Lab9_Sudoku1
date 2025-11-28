@@ -18,6 +18,7 @@ public class MainTerminal {
             return;
         }
         int[][] grid = CSVFileReader.readFromFile(file);
+
         SudokuBoard board = new SudokuBoard(grid);
         Validator validator = ModeFactory.getValidator(mode);
         ValidationResult result = validator.validate(board);
