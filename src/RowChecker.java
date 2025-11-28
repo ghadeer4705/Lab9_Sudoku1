@@ -1,14 +1,17 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class RowChecker implements Checker {
 
     private SudokuBoard board;
-    private List<DuplicateInfo> result;
+    //private List<DuplicateInfo> result;
+    private List<DuplicateInfo> result = Collections.synchronizedList(new ArrayList<>());
+
 
     public RowChecker(SudokuBoard board) {
         this.board = board;
-        this.result = new ArrayList<>();
+      //  this.result = new ArrayList<>();
     }
 
     // Check a single row

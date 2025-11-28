@@ -46,6 +46,7 @@ public class ValidationResult {
         }
     }
 
+
     /*public List<DuplicateInfo> getDuplicates() {
         List<DuplicateInfo> allDuplicates = new ArrayList<>();
         allDuplicates.addAll(rowErrors);
