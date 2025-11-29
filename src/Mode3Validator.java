@@ -17,6 +17,7 @@ public class Mode3Validator implements Validator {
         t2.start();
         t3.start();
 
+
         // wait for all threads to finish
         try {
             t1.join();
