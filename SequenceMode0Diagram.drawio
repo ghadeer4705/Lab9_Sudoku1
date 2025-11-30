@@ -23,7 +23,7 @@
           <mxGeometry height="720" width="120" x="320" y="-40" as="geometry" />
         </mxCell>
         <mxCell id="frM9Lkq-s7kW2zFHfbjo-39" parent="frM9Lkq-s7kW2zFHfbjo-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="30" width="15" x="52.5" y="220" as="geometry" />
+          <mxGeometry height="40" width="15" x="52.5" y="220" as="geometry" />
         </mxCell>
         <mxCell id="frM9Lkq-s7kW2zFHfbjo-17" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" value="Mode 0 Validator" vertex="1">
           <mxGeometry height="720" width="120" x="480" y="-40" as="geometry" />
@@ -65,8 +65,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="frM9Lkq-s7kW2zFHfbjo-26" edge="1" parent="1" source="frM9Lkq-s7kW2zFHfbjo-39" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="Mode=0">
-          <mxGeometry relative="1" width="80" x="-1" y="-221" as="geometry">
-            <mxPoint x="1" y="-20" as="offset" />
+          <mxGeometry relative="1" width="80" x="NaN" y="252" as="geometry">
+            <mxPoint x="-250" y="-30" as="offset" />
             <mxPoint x="220.23000000000002" y="220" as="sourcePoint" />
             <mxPoint x="379.99923076923073" y="220" as="targetPoint" />
           </mxGeometry>
