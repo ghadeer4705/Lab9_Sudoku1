@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="Page-1" id="Cto_GQPexczrENGHW2Vk">
-    <mxGraphModel dx="1895" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,33 +16,33 @@
         <mxCell id="dTn_SHF-m0vMkCoEBe2G-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" value="ModeFactory" vertex="1">
           <mxGeometry height="560" width="120" x="580" y="170" as="geometry" />
         </mxCell>
+        <mxCell id="dTn_SHF-m0vMkCoEBe2G-8" edge="1" parent="dTn_SHF-m0vMkCoEBe2G-4" source="dTn_SHF-m0vMkCoEBe2G-11" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="Mode=3">
+          <mxGeometry relative="1" width="80" x="1" y="60" as="geometry">
+            <mxPoint x="-60" y="-60" as="offset" />
+            <mxPoint x="-104.76999999999998" y="190" as="sourcePoint" />
+            <mxPoint x="54.999230769230735" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTn_SHF-m0vMkCoEBe2G-10" edge="1" parent="dTn_SHF-m0vMkCoEBe2G-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="-390" y="200" as="sourcePoint" />
+            <mxPoint x="60" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTn_SHF-m0vMkCoEBe2G-11" parent="dTn_SHF-m0vMkCoEBe2G-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="55" y="180" as="geometry" />
+        </mxCell>
         <mxCell id="dTn_SHF-m0vMkCoEBe2G-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" value="Mode 3&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Validator&lt;/span&gt;" vertex="1">
           <mxGeometry height="560" width="120" x="740" y="170" as="geometry" />
         </mxCell>
         <mxCell id="dTn_SHF-m0vMkCoEBe2G-6" parent="dTn_SHF-m0vMkCoEBe2G-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="280" width="10" x="55" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="dTn_SHF-m0vMkCoEBe2G-8" edge="1" parent="1" source="dTn_SHF-m0vMkCoEBe2G-11" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="Mode=3">
-          <mxGeometry relative="1" width="80" x="1" y="60" as="geometry">
-            <mxPoint x="-60" y="-60" as="offset" />
-            <mxPoint x="480.23" y="310" as="sourcePoint" />
-            <mxPoint x="639.9992307692307" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dTn_SHF-m0vMkCoEBe2G-9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="Validate(board)">
+        <mxCell id="dTn_SHF-m0vMkCoEBe2G-9" edge="1" parent="1" source="dTn_SHF-m0vMkCoEBe2G-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="Validate(board)">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="640" y="350" as="sourcePoint" />
-            <mxPoint x="799.7692307692307" y="350" as="targetPoint" />
+            <mxPoint x="640" y="445" as="sourcePoint" />
+            <mxPoint x="799.7692307692307" y="445" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="dTn_SHF-m0vMkCoEBe2G-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="dTn_SHF-m0vMkCoEBe2G-11" value="">
-          <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="180.23000000000002" y="310" as="sourcePoint" />
-            <mxPoint x="339.99923076923073" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dTn_SHF-m0vMkCoEBe2G-11" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="70" width="10" x="640" y="300" as="geometry" />
         </mxCell>
         <mxCell id="dTn_SHF-m0vMkCoEBe2G-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Validator" vertex="1">
           <mxGeometry height="30" width="60" x="30" y="130" as="geometry" />
